@@ -63,4 +63,4 @@ if (tattoo.toLowerCase() === 'yes' || tattoo.toLowerCase() === 'y') {
   console.log('The visitor entered an unrecognizable answer.');
 }
 
-alert('Thanks for playing!')
+alert('Thanks for playing!');
