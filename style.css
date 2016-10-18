@@ -1,9 +1,10 @@
 body {
   background-color: AliceBlue;
-  font-family: serif;
-  width: 1000px;
+  font-family: sans-serif;
+  max-width: 1000px;
   margin: 0 auto;
   font-size: 1.5em;
+  padding: 20px;
 }
 
 #header {
@@ -11,14 +12,16 @@ body {
   color: white;
   font-size: 200%;
   padding-left: 10px;
-  font-family: sans-serif;
 }
 
-.subheader {
-  background-color: #1E90ff;
+img {
+  min-width: 400px;
+}
+
+h3 {
+  background-color: #1E90FF;
   color: white;
   padding-left: 10px;
-  font-family: sans-serif;
 }
 
 a {
@@ -27,4 +30,9 @@ a {
 
 hr {
   border-color: #1E90FF;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
 }
